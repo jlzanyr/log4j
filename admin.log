@@ -1,0 +1,6 @@
+0    [main] WARN  log4j.admin.SampleAdmin  -Sample warn message
+0    [main] ERROR log4j.admin.SampleAdmin  -Sample error message
+0    [main] FATAL log4j.admin.SampleAdmin  -Sample fatal message
+0    [main] WARN  log4j.admin.SampleAdmin  -Sample warn message
+0    [main] ERROR log4j.admin.SampleAdmin  -Sample error message
+0    [main] FATAL log4j.admin.SampleAdmin  -Sample fatal message

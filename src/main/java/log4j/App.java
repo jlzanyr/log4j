@@ -1,5 +1,6 @@
 package log4j;
 
+import log4j.admin.SampleAdmin;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
@@ -14,10 +15,13 @@ public class App
     {
 //        BasicConfigurator.configure();
         PropertyConfigurator.configure("log4j.properties");
-        logger.debug("Sample debug message");
-        logger.info("Sample info message");
-        logger.warn("Sample warn message");
-        logger.error("Sample error message");
-        logger.fatal("Sample fatal message");
+//        logger.debug("Sample debug message");
+//        logger.info("Sample info message");
+//        logger.warn("Sample warn message");
+//        logger.error("Sample error message");
+//        logger.fatal("Sample fatal message");
+
+
+        new SampleAdmin().generateReport();
     }
 }
