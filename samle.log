@@ -1,0 +1,3 @@
+0    [main] WARN  log4j.App  -Sample warn message
+0    [main] ERROR log4j.App  -Sample error message
+0    [main] FATAL log4j.App  -Sample fatal message
